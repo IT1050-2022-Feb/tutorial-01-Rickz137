@@ -1,8 +1,8 @@
 language = "bash"
 run = "chmod +x run.sh;./run.sh"
-entrypoint = "main.c"
+#entrypoint = "main.c"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
-compile = ["make", "-s"]
+#compile = ["make", "-s"]
 
 [languages]
 
